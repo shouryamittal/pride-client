@@ -1,0 +1,11 @@
+@import "./themeConfig.scss";
+.header {
+    a img {
+        max-width: 50px;
+        max-height: 50px;
+        margin-right: 15px;
+    }
+    .navbar {
+        padding: 10px 20px;
+    }
+} 

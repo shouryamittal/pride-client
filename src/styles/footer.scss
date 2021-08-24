@@ -1,0 +1,31 @@
+@import "./themeConfig.scss";
+
+.footer {
+    margin-top: 30px;
+    height: 300px;
+    background-color: skyblue;
+    padding: 20px;
+    .logo {
+        max-height: 100px;
+        max-width: 100px;
+    }
+    .companyName, .aboutUsTeaser {
+        margin-top: 15px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .companyName {
+        font-weight: 700;
+    }
+    .links a {
+        display: block;
+        text-decoration: none;
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    p {
+        margin: 10px 0;
+    }
+}
